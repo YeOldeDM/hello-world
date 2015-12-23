@@ -149,6 +149,7 @@ func _ready():
 		score_boxes[s] = get_node('Scores/'+s)
 		#draw modifiers to the screen
 		_refresh(s)
+	_on_Button_pressed()
 	
 func _refresh(s):
 	set_final_score(s)

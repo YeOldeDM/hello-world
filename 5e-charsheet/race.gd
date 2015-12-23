@@ -72,6 +72,8 @@ func _ready():
 	menu.add_item('Half-Orc', 8)
 	menu.add_item('Tiefling', 9)
 	
+	submenu.add_item('Pick a Race first!',0)
+	submenu.set_item_disabled(0,true)
 
 func make_subrace_menu(ID):
 	submenu.clear()
